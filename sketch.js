@@ -45,7 +45,7 @@ function draw() {
   }else if(lastFed==0){
     text("Last Feed : 12 AM",350,30);
   }else{
-  //show time in AM format when lastFed is less than 12
+    //show time in AM format when lastFed is less than 12
   }
 
  
