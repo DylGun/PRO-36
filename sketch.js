@@ -41,11 +41,11 @@ function draw() {
  
   //write code to display text lastFed time here
   if(lastFed>=12){
-    
+    //show time in PM format when lastFed is greater than 12
   }else if(lastFed==0){
     text("Last Feed : 12 AM",350,30);
   }else{
-
+  //show time in AM format when lastFed is less than 12
   }
 
  
